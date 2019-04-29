@@ -1,0 +1,224 @@
+/* ### oder pages form styling ### */
+/* ############################### */
+
+.form.container.order,
+.form.container.contact {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.cake.design.order {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.form.order .column, .cake.design.order,
+.form.contact .column {
+  width: 90%;
+  margin: 0 auto 10px;
+}
+
+.state-zip input {
+  display: inline-block;
+  width: 40%;
+  margin-right: 4px !important;
+  padding: 12px;
+  border: 1px solid rgba(101, 53, 101, 0.4);
+  border-radius: 4px;
+}
+
+.cake-input.hdr {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  color: rgb(101, 53, 101)
+}
+
+.form.order .select select {
+  border-radius: 3px;
+  padding: 4px 2px;
+  border: 1px solid rgba(101, 53, 101, 0.4);
+}
+
+.delivery-time-container, .cake-shape-container, .sponge-type-container, .cake-filling-container {
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  padding: 10px;
+  justify-content: center;
+}
+
+.square-cake {
+  display: block;
+  margin-right: 18px;
+  padding: 14px;
+  width: 48px;
+  height: 48px;
+  border: 3px dashed rgb(101, 53, 101);
+}
+
+.round-cake {
+  display: block;
+  margin-left: 18px;
+  margin-top: -3px;
+  padding: 16px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 3px dashed rgb(101, 53, 101);
+}
+
+.div-line.horizontal {
+  border-bottom: 1px solid rgba(101, 53, 101, 0.35);
+  margin: 10px 0;
+}
+
+.form-btn button {
+  display: block;
+  width: 145px;
+  padding: 12px;
+  background-color: #91ffe5;
+  margin: 10px auto;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #ee2528;
+  outline: 2px solid #ee2528;
+  outline-offset: -5px;
+  box-shadow: 3px 3px 8px rgba(101, 53, 101, 0.6);
+  cursor: pointer;
+}
+
+.additional-enquiry {
+  text-align: center;
+  padding: 15px;
+}
+
+.cake-container.img {
+  padding: 5px;
+  border: 1px solid rgba(101, 53, 101, 0.4);
+  margin: 5px;
+  box-shadow: 3px 3px 8px rgba(101, 53, 101, 0.4);
+  width: 45%;
+  background-color: rgb(250, 249, 249);
+}
+
+.cake-container.img img {
+  width: 100%;
+}
+
+.delivery-time.select {
+  margin: auto;
+  width: 210px;
+}
+
+/* ### contact form styling ### */
+/* ############################ */
+
+.form.contact .company-info {
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* ### form general styling ### */
+/* ############################ */
+
+.order .pinput input,
+.personal-info textarea,
+.contact textarea,
+.contact .pinput input {
+  display: block;
+  width: 100%;
+  margin: 4px 0;
+  padding: 12px;
+  border: 1px solid rgba(101, 53, 101, 0.4);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 30px;
+}
+
+.google-map {
+  width: 100%;
+}
+
+
+/* ########################## */
+/* ###### desktop view ###### */
+/* ########################## */
+@media screen and (min-width: 769px) {
+  .form.container.order,
+  .form.container.contact {
+    padding-top: 15px;
+    justify-content: space-evenly;
+    grid-template-columns: auto 1px auto;
+    width: 600px;
+  }
+
+  .form.order .order.column {
+    width: 100%;
+    padding: 0 .8em;
+  }
+
+  .form.contact .contact.column {
+    width: 295px;
+    padding: 0 .5em;
+  }
+
+  .form.contact .company-info.column {
+    padding-top: 15px !important;
+  }
+
+  .div-line.vertical {
+    width: 1px;
+    height: 430px;
+    margin: auto;
+    background-color: rgba(101, 53, 101, 0.35);
+  }
+
+  .cake.design.order {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 600px;
+  }
+
+  .cake-container.img {
+    width: 30%;
+  }
+
+  .cake-filing.select, .sponge-type.select {
+    margin: 0 auto;
+  }
+
+  .form.order .form-btn,
+  .cake.design.order,
+  .additional-enquiry {
+    grid-column: 1 / span 3;
+  }
+
+}
+
+/* ########################## */
+/* ###### mobile view ####### */
+/* ########################## */
+
+@media screen and (max-width: 768px) {
+  .delivery-time {
+    width: 190px;
+  }
+
+  label {
+    font-size: 0.7em;
+  }
+}

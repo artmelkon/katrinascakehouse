@@ -1,0 +1,70 @@
+<?php 
+	$page = 'events';
+	include_once '../inc/php/include_files.php';
+?>
+<!doctype html>
+<html>
+<head>
+	<?php include_once $file_head_tag; ?>
+	<style>
+	/* ### events cake gallery modal ### */
+		#imageModal {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: none;
+			background-color: rgba(0,0,0, 0.95);
+			z-index: 5;
+		}
+
+		.close-btn {
+			font-size: 38px;
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			color: #fff;
+			cursor: pointer;
+
+		}
+
+		.modal-image-container {
+			margin: 120px auto;
+			width: 75%;
+		}
+
+		.modal-image-container img {
+			width: 100%;
+		}
+		
+		@media screen and (min-width: 769px) {
+			.modal-image-container {
+				width: 55%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- beginning of mobile nav -->
+	<?php include_once $file_mobile_nav; ?>
+	<!-- beginning of mobile nav -->	
+	<header>
+		<!-- beginning of main menu -->
+		<?php include_once $file_top_nav; ?>
+		<!-- end of main menu -->
+	</header>
+	<main>
+		<!--  hero image section -->
+		<?php include_once $file_hero_img; ?>
+		<!-- end of hero section -->
+		<!--  jumbotron section -->
+		<?php include_once $file_section_one ?>
+		<?php include_once $file_section_two ?>
+	</main>
+	<footer>
+		<?php include_once $file_footer; ?>
+	</footer>
+</body>
+<script type="text/javascript" src="../inc/js/functions.js"></script>
+</html>

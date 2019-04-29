@@ -1,0 +1,48 @@
+<NotepadPlus>
+    <Project name="katrinas cake">
+        <Folder name="events">
+            <File name="events\index.php" />
+        </Folder>
+        <Folder name="img">
+            <Folder name="cake_word_within_the_cake_icon_6823949">
+                <File name="img\cake_word_within_the_cake_icon_6823949\cake.eps" />
+                <File name="img\cake_word_within_the_cake_icon_6823949\cake.jpg" />
+            </Folder>
+            <File name="img\birthday-cake-balloons-600x400.jpg" />
+            <File name="img\cake-logo.png" />
+            <File name="img\carousel-coming-soon.jpg" />
+            <File name="img\wedding-cake-cutting.jpg" />
+        </Folder>
+        <Folder name="inc">
+            <Folder name="css">
+                <File name="inc\css\form-style.css" />
+                <File name="inc\css\main.css" />
+            </Folder>
+            <Folder name="js">
+                <File name="inc\js\functions.js" />
+            </Folder>
+            <Folder name="php">
+                <File name="inc\php\footer.php" />
+                <File name="inc\php\functions.php" />
+                <File name="inc\php\head_tag.php" />
+                <File name="inc\php\hero.php" />
+                <File name="inc\php\misc.php" />
+                <File name="inc\php\mobile-nav.php" />
+                <File name="inc\php\order-form.php" />
+                <File name="inc\php\section-one.php" />
+                <File name="inc\php\section-three.php" />
+                <File name="inc\php\section-two.php" />
+                <File name="inc\php\switch.php" />
+                <File name="inc\php\top-nav.php" />
+                <File name="inc\php\gallery.php" />
+            </Folder>
+        </Folder>
+        <Folder name="order">
+            <File name="order\index.php" />
+        </Folder>
+        <Folder name="wedding">
+            <File name="wedding\index.php" />
+        </Folder>
+        <File name="index.php" />
+    </Project>
+</NotepadPlus>
